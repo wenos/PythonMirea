@@ -4,9 +4,9 @@ import numpy as np
 import sys
 
 pg.init()
-image = pg.image.load('Map0.png')
+image = pg.image.load('map0.color.png')
 colormap = pg.surfarray.array3d(image)
-image = pg.image.load('noise3.png')
+image = pg.image.load('map0.height.png')
 heightmap = pg.surfarray.array2d(image)
 
 SCREEN_WIDTH = 800
